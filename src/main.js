@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 加载全局样式//less样式好像不能用缩写
+import '@/styles/index.less'
+
 Vue.config.productionTip = false
 
 new Vue({
