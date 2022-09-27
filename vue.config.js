@@ -6,6 +6,6 @@ module.exports = defineConfig({
     port: 3005,
     open: true // 浏览器自动打开
   },
-  lintOnSave: false, // 关闭eslint的检查(暂时关闭，以后再来开启)
+  lintOnSave: true, // 关闭eslint的检查(暂时关闭，以后再来开启)
   publicPath: './'
 })
